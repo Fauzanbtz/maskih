@@ -66,6 +66,33 @@ export default function Content() {
             </Card>
           ))}
         </div>
+        <div className="flex flex-col items-center justify-center py-20">
+          <h1 className="text-3xl font-bold py-10">What can i do for you</h1>
+          <p className="text-center w-1/2">
+            As an experienced graphic designer, I create strong and effective
+            visuals to help your brand tell a story and connect with your
+            audience. With expertise in digital and print design, I offer a
+            variety of services, including:
+          </p>
+          <ul className="list-disc list-inside  space-y-5 p-10">
+            <li className="border p-5 rounded-md border-[#2b2a2a]">
+              <strong>Brand Identity & Logo Design:</strong> Membuat identitas
+              visual yang unik dan berkesan untuk memperkuat citra bisnis Anda.
+            </li>
+            <li className="border p-5 rounded-md border-[#2b2a2a]">
+              <strong>Brand Identity & Logo Design:</strong> Membuat identitas
+              visual yang unik dan berkesan untuk memperkuat citra bisnis Anda.
+            </li>
+            <li className="border p-5 rounded-md border-[#2b2a2a]">
+              <strong>Brand Identity & Logo Design:</strong> Membuat identitas
+              visual yang unik dan berkesan untuk memperkuat citra bisnis Anda.
+            </li>
+            <li className="border p-5 rounded-md border-[#2b2a2a]">
+              <strong>Brand Identity & Logo Design:</strong> Membuat identitas
+              visual yang unik dan berkesan untuk memperkuat citra bisnis Anda.
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

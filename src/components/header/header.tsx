@@ -41,7 +41,7 @@ export default function Header() {
         </nav>
         <Link
           href="#"
-          className="hidden border border-black rounded md:inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+          className="hidden border-2 border-[#242424] rounded md:inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
           prefetch={false}>
           <DownloadIcon className="h-4 w-4" />
           Download Resume

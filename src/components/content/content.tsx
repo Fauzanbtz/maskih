@@ -41,7 +41,7 @@ const data = [
 
 export default function Content() {
   return (
-    <div className="h-screen">
+    <div className="">
       <div className="flex w-full flex-wrap rounded-md justify-around p-10 bg-[#242323]">
         <SiAdobephotoshop className="h-20 w-20" />
         <SiAdobephotoshop className="h-20 w-20" />
@@ -68,7 +68,7 @@ export default function Content() {
         </div>
         <div className="flex flex-col items-center justify-center py-20">
           <h1 className="text-3xl font-bold py-10">What can i do for you</h1>
-          <p className="text-center w-1/2">
+          <p className="text-center md:w-1/2">
             As an experienced graphic designer, I create strong and effective
             visuals to help your brand tell a story and connect with your
             audience. With expertise in digital and print design, I offer a

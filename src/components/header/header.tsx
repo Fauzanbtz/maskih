@@ -8,9 +8,8 @@ import image from "../../public/images/images.png";
 export default function Header() {
   return (
     <>
-      <header className="flex items-center justify-between px-4 py-3 bg-background shadow-sm">
+      <header className="hidden md:flex items-center justify-between px-4 py-3 bg-background shadow-sm">
         <Link href="#" className="flex items-center gap-2" prefetch={false}>
-          <DiamondIcon className="h-6 w-6 text-primary" />
           <span className="text-lg font-semibold">Portfolio</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
@@ -47,7 +46,7 @@ export default function Header() {
           Download Resume
         </Link>
       </header>
-      <main className="container mx-auto py-12 px-4 md:px-6 h-screen">
+      <main className="container mx-auto py-12 px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <Image
@@ -100,24 +99,6 @@ function ArrowRightIcon(props: React.SVGProps<SVGSVGElement>) {
       strokeLinejoin="round">
       <path d="M5 12h14" />
       <path d="m12 5 7 7-7 7" />
-    </svg>
-  );
-}
-
-function DiamondIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round">
-      <path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z" />
     </svg>
   );
 }
